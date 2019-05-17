@@ -23,6 +23,14 @@
   <ItemGroup>
     <Compile Include="finding_lane.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="test2.mp4">
+      <Publish>True</Publish>
+    </Content>
+    <Content Include="test_image.jpg">
+      <Publish>True</Publish>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in
